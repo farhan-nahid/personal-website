@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.color{
+    color: #ed4b73;
+    font-weight: 900;
+}
+.half_width{
+    width: 40%;
+    float: left;
+    margin-left: 9%;
+    
+}
+.half_width.content {
+    margin-top: 100px;
+}
+.half_width a{
+    text-decoration: none;
+    background-color: #ed4b73;
+    padding: 10px 20px;
+    color:white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.half_width img{
+    width: 85%;
+}
+#biography{
+    background-image: url(img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.single_wark_box img{
+    width: 100%;
+    border-radius: 20px;
+}
+.single_wark_box{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    box-shadow: 20px 20px 40px gray;
+    border-radius: 10px;
+}
+#wark{
+    background-image: url(img/latest-work-bg.png);
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: cover;
+}
+section {
+    height: 500px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 800;
+    text-align:center;
+    text-transform: uppercase;
+    color: gray;
+}
+#client{
+    background-image: url(img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.text_part{
+    text-align: center;
+}
+#heading{
+    margin-bottom: 50px;
+}
+#about_client h5{
+    margin-bottom: 0 ;
+}
+#about_client h6{
+    margin-top: 10px;
+    font-weight: 300;
+}
+#review p{
+    margin-bottom: 0;
+}
+#mail_part{
+    background-image: linear-gradient(50deg, pink , skyblue);
+    padding: 53px;
+    margin: 100px;
+    border-radius: 10px;
+    border-radius: 30px;
+ }
+#mail_part a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    text-align: center;
+}
